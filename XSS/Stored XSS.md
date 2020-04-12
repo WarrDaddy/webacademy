@@ -17,7 +17,7 @@ Within the attacker's request, this comment would be URL-encoded as:
 >comment=%3Cscript%3E%2F*%2BBad%2Bstuff%2Bhere...%2B*%2F%3C%2Fscript%3E  
 
 Any user who visits the blog post will now receive the following within the application's response:
-<p><script>/* Bad stuff here... */</script></p>  
+><p><script>/* Bad stuff here... */</script></p>  
 
 The script supplied by the attacker will then execute in the victim user's browser, in the context of their session with the application. 
 
