@@ -10,3 +10,6 @@ The application echoes the supplied search term in the response to this URL
 
 Assuming the application doesn't perform any other processing of the data, attackers can construct an attack like this. 
 https://insecure-website.com/status?message=<script>/*+Bad+stuff+here...+*/</script>
+
+Lab: Reflected XSS into HTML context with nothing encoded
+web-security-academy.net/?search=<script>alert(1)</script>
