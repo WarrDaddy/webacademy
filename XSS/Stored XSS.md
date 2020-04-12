@@ -1,6 +1,5 @@
 What is stored cross-site scripting?   
-Stored XSS or persistent XSS araises when an application recieves data from an untrusted source and includes that data within its later    
-HTTP responses in an unsafe way. 
+Stored XSS or persistent XSS araises when an application recieves data from an untrusted source and includes that data within its later  HTTP responses in an unsafe way. 
 
 Suppose a website allows users to submit comments on blog posts, which are displayed to other users. Users submit comments using an HTTP    
 request like the following:  
@@ -22,10 +21,11 @@ comment=%3Cscript%3E%2F*%2BBad%2Bstuff%2Bhere...%2B*%2F%3C%2Fscript%3E
 Any user who visits the blog post will now receive the following within the application's response:
 <p><script>/* Bad stuff here... */</script></p>  
 
-The script supplied by the attacker will then execute in the victim user's browser, in the context of their session with the application.  
+The script supplied by the attacker will then execute in the victim user's browser, in the context of their session with the application. 
 
+***
 
-Lab: Stored XSS into HTML context with nothing encoded  
+###### Lab: Stored XSS into HTML context with nothing encoded  
 POST /post/comment HTTP/1.1  
 Host: ac3a1ff01e93fd038023e57d00360025.web-security-academy.net  
 User-Agent: Mozilla/5.0 (X11; Linux i686; rv:52.0) Gecko/20100101 Firefox/52.0  
