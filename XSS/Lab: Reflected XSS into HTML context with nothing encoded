@@ -1,0 +1,2 @@
+What is reflected cross-site scripting?
+Reflected XXS arises when an application recieves data in an HTTP request and includes that data within the immediate repsonse in an unsafe way.  asdsadasdsadsadasdasasdasdsadasdasdsadasdas
