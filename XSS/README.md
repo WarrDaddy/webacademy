@@ -1,10 +1,6 @@
 # Web Academy Cross-Site Scripting (XSS) 
 
 What is Cross-Site Scripting(XSS) 
-XXS is ASDF
+XSS is a type of computer security vulnerability found in web applications. XSS attacks enable attackers to inject **client-side scripts** into web pages viewed by other users. This type of vulnerability allows an attacker to circumvent the **same origin policy**, which is designed to segregate different websites from each other. 
 
->TEST 
->test
-
->>test1
->>test1
+# How does XSS Work ? 
