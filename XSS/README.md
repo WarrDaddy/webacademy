@@ -15,7 +15,7 @@ XXS works by manipulating a vulnerable web site so that it returns malicious Jav
 The impact of the XSS attack is based on the nature of the application, and it's functionality, data, anda the type of compromised user(ex, admin user)  
 
 #### How to protect again XSS attacks
-**Filter input** - At the point where user input is recieved , filter as strictly as possible based on what is expected 
-**Encode data on output** - At the point where user-controllable data is output in HTTP reponses, encode the output to prevent it from being interpreted as active content 
-**Content Security Policy** - As a last line of defense, you can use Content Security Policy (CSP) to reduce the severity of any XSS vulnerabilities that still occur.
+**Filter input** - At the point where user input is recieved , filter as strictly as possible based on what is expected  
+**Encode data on output** - At the point where user-controllable data is output in HTTP reponses, encode the output to prevent it from being interpreted as active content  
+**Content Security Policy** - As a last line of defense, you can use Content Security Policy (CSP) to reduce the severity of any XSS vulnerabilities that still occur.  
  
