@@ -34,7 +34,8 @@ Accept-Encoding: gzip, deflate
 Referer: https://ac5f1f4e1edda1b5810d0d0f00e60028.web-security-academy.net/
 Cookie: session=FkSFLXR0PyX1JqWdIIMiUQmt4O97Yg6M
 Connection: close
-Upgrade-Insecure-Requests: 1````
+Upgrade-Insecure-Requests: 1
+````
 
 
 
